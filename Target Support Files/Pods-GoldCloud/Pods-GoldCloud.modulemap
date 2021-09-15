@@ -1,0 +1,6 @@
+module Pods_GoldCloud {
+  umbrella header "Pods-GoldCloud-umbrella.h"
+
+  export *
+  module * { export * }
+}

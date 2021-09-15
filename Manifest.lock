@@ -1,0 +1,70 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Bolts (1.9.1):
+    - Bolts/AppLinks (= 1.9.1)
+    - Bolts/Tasks (= 1.9.1)
+  - Bolts/AppLinks (1.9.1):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.1)
+  - FBSDKCoreKit (7.1.1):
+    - FBSDKCoreKit/Basics (= 7.1.1)
+    - FBSDKCoreKit/Core (= 7.1.1)
+  - FBSDKCoreKit/Basics (7.1.1)
+  - FBSDKCoreKit/Core (7.1.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (7.1.1):
+    - FBSDKLoginKit/Login (= 7.1.1)
+  - FBSDKLoginKit/Login (7.1.1):
+    - FBSDKCoreKit (~> 7.1.1)
+  - FBSDKShareKit (7.1.1):
+    - FBSDKShareKit/Share (= 7.1.1)
+  - FBSDKShareKit/Share (7.1.1):
+    - FBSDKCoreKit (~> 7.1.1)
+  - TwitterCore (3.2.0)
+  - TwitterKit5 (5.2.0):
+    - TwitterCore (>= 3.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0.1)
+  - Bolts
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - TwitterKit5
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Bolts
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - TwitterCore
+    - TwitterKit5
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
+  FBSDKLoginKit: 1a61d79e2b25e2fc0d03dccab1e34b38bbdf2546
+  FBSDKShareKit: 00a055c1999b099596e00212dd1c0600c6697019
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit5: 64095dfefcf39be2355711ef27112d55e340d90e
+
+PODFILE CHECKSUM: dec0f2da35446b1520c98c5b8cf9c60915326c12
+
+COCOAPODS: 1.9.3
